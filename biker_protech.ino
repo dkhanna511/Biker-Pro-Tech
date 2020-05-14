@@ -7,7 +7,7 @@ void setup() {
  pinMode(IR_SENSOR ,INPUT);
  pinMode(PIN_RF, OUTPUT);
  pinMode(LED, OUTPUT);
- digitalWrite(PIN_RF, HIGH);  //RD Transmitter transmits at LOW, so by default keepint it at HIGH
+ digitalWrite(PIN_RF, HIGH);  //RF Transmitter transmits at LOW, so by default keeping it at HIGH
  Serial.begin(9600);
 
 }
